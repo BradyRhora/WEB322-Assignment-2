@@ -23,6 +23,8 @@ html,body{
 #form-container{
     width:auto;
     max-width:750px;
+    padding-top:10px;
+    padding-top:10px;
     margin-left:auto;
     margin-right:auto;
     background-color:rgb(211, 211, 211);
@@ -100,6 +102,10 @@ nav>input{
     font-size:17px;
 }
 
+#rememberBox{
+    display:inline;
+}
+
 #articles{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -132,8 +138,12 @@ nav>input{
     margin-right:100px;
 }
 
+.middleCol{
+    grid-column:2/4 !important;
+}
+
 .doubleCol{
-    grid-column: 1/3;
+    grid-column: 1/3 !important;
     width:auto;
 }
 

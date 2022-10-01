@@ -25,11 +25,13 @@
         <div id="form-container">
             <h2>Login</h2>
             <form>
-                <input style="grid-column: 2/4;" name="email" type="email" placeholder="Email Address"/>
-                <input style="grid-column: 2/4;" name="password" type="password" placeholder="Password"/>
-                <label style="grid-column: 2/3;"for="remember">Remember Me</label>
-                <input style="grid-column: 3/4;"type="checkbox" name="remember"/>
-                <input type="submit" value="Login" style="grid-column: 2/4;background-color:rgb(53, 184, 224)"/>
+                <input class="middleCol" name="email" type="email" placeholder="Email Address"/>
+                <input class="middleCol" name="password" type="password" placeholder="Password"/>
+                <div class="middleCol" id ="rememberBox">
+                    <label for="remember">Remember Me</label>
+                    <input type="checkbox" name="remember"/>
+                </div>
+                <input type="submit" value="Login" class="middleCol" style="background-color:rgb(53, 184, 224)"/>
             </form>
         </div>
     </main>
