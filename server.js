@@ -2,11 +2,8 @@ var HTTP_PORT = process.env.PORT || 8080;
 var express = require("express");
 var path = require("path");
 var app = express();
-app.use(express.static(__dirname + '/public'));
 
-app.get("/", (req,res) => {
-    res.sendFile(path.join(__dirname,"/index.html"));
-});
+app.use(express.static("static"));
 
 app.get("/login", (req,res) => {
     res.sendFile(path.join(__dirname,"/login.html"));
