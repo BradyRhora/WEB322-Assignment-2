@@ -20,7 +20,7 @@ html,body{
     z-index:0;
 }
 
-#registration-container{
+#form-container{
     width:auto;
     max-width:750px;
     margin-left:auto;
@@ -34,12 +34,12 @@ html,body{
     border-radius:5px;
 }
 
-#registration-container>form{
+#form-container>form{
     display:grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
 }
 
-#registration-container>form>input, #registration-container>form>select{
+#form-container>form>input, #form-container>form>select{
     margin:10px;
     border: 1px solid rgb(165, 165, 165);
     border-radius:3px;
